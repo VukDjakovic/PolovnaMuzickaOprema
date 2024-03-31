@@ -1,0 +1,56 @@
+:root {
+    --pozadina1: #0052D4;
+    --pozadina2: #65C7F7;
+    --tekst: #003b9a;
+    --hover-tekst: white;
+}
+
+body {
+    font-family: Poppins, sans-serif;
+    background: linear-gradient(to right, var(--pozadina1), var(--pozadina2));
+    color: var(--tekst);
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.logo-wrapper {
+    align-content: center;
+    text-align: center;
+}
+
+.logo {
+    height: 200px;
+}
+
+.auth {
+    margin: 100px;
+    justify-content: center;
+    display: flex;
+    font-size: 40px;
+    font-weight: bold;
+    list-style: none;
+}
+
+.hidden {
+    justify-content: center;
+}
+
+a {
+    margin: 20px;
+    flex-grow: 1;
+    width: max-content;
+    height: max-content;
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+    color: var(--tekst);
+    transition: 300ms;
+}
+
+a:hover {
+    color: var(--hover-tekst);
+    text-shadow: 5px 5px var(--tekst);
+}

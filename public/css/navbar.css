@@ -1,0 +1,63 @@
+:root {
+    --pozadina1: #0052D4;
+    --pozadina2: #65C7F7;
+    --tekst: #003b9a;
+    --hover-tekst: white;
+}
+
+body {
+    font-family: Poppins, sans-serif;
+    color: var(--tekst);
+}
+
+.nav-wrapper {
+    height: 90px;
+    border-top:2px solid;
+    border-bottom:2px solid;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to right, var(--pozadina1), var(--pozadina2));
+    z-index: 100;
+}
+
+.logo {
+    width: 250px;
+    margin-left: 20px;
+    margin-top: 10px;
+    align-content: center;
+    padding: 5px;
+    z-index: 5;
+}
+
+.nav-list {
+    display: flex;
+    padding: 4% 8%;
+    font-size: 25px;
+    font-weight: bold;
+    list-style: none;
+    margin-left: auto;
+}
+
+.auth {
+    display: flex;
+    font-size: 25px;
+    font-weight: bold;
+    list-style: none;
+}
+
+.nav-wrapper a {
+    flex-grow: 1;
+    width: max-content;
+    height: max-content;
+    display: flex;
+    text-align: center;
+    margin: 20px;
+    text-decoration: none;
+    color: var(--tekst);
+    transition: 300ms;
+}
+
+.nav-wrapper a:hover {
+    color: var(--hover-tekst);
+    text-shadow: 5px 5px var(--tekst);
+}

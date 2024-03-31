@@ -1,0 +1,59 @@
+h1 {
+    text-align: center;
+}
+
+.main-image {
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+.main-image img {
+    width: 300px;
+    height: auto;
+}
+
+.product-images {
+    justify-content: center;
+    display: flex;
+}
+
+.single-image {
+    justify-content: center;
+}
+
+.product-images img {
+    text-align: center;
+    width: 100px;
+    height: 100px;
+}
+
+.info {
+    text-align: center;
+}
+
+.info p {
+    font-size: 18px;
+}
+
+.action-buttons {
+    text-align: center;
+}
+
+.action-buttons button{
+    text-align: center;
+    background-color: var(--pozadina2);
+    color: var(--tekst);
+    border: 2px solid;
+    transition: 300ms;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.action-buttons button:hover {
+    background-color: var(--pozadina1);
+    color: var(--hover-tekst);
+    box-shadow: 5px 5px var(--tekst);
+    text-shadow: 5px 5px var(--tekst);
+}
